@@ -66,10 +66,10 @@ html {
 /* Mobile */
 @media screen and (max-width: 768px) {
 	body {
-		padding-bottom: 80px;
+		padding-bottom: 50px;
 	}
 				
-	p {
+	p, li {
 		padding-left: 10%;
 		padding-right: 10%;
 	}
@@ -88,7 +88,7 @@ html {
 /* Tablet */
 @media screen and (min-width: 769px) and (max-width: 1024px) {
 	body {
-			padding-bottom: 150px; /* Extra space for iPad */
+			padding-bottom: 150px;
 			min-height: 100vh;
 	}
 				
