@@ -45,8 +45,9 @@ footer {
 }
 
 p {
-	padding-left:10%;
-	padding-right:10%;
+	text-align: left;
+	padding-left:30%;
+	padding-right:30%;
 }
 
 h1 {
