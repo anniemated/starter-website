@@ -69,8 +69,8 @@ html {
 	}
 				
 	p {
-		padding-left: 5%;
-		padding-right: 5%;
+		padding-left: 10%;
+		padding-right: 10%;
 	}
 				
 	footer {
@@ -96,3 +96,13 @@ html {
 		padding-bottom: 20px;
 		}
 }
+
+@supports (-webkit-touch-callout: none) {
+	body {
+			min-height: -webkit-fill-available;
+		}
+				
+	html {
+			height: -webkit-fill-available;
+		}
+	}
