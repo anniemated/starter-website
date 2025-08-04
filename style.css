@@ -1,5 +1,5 @@
 img {
-	width: 200px;
+	width: 35%;
 }
 
 body {
@@ -27,9 +27,7 @@ a:hover {
 }
 
 header {
-	background-color:rgb(238, 221, 199);
-	position:sticky;
-	top:0;
+	background-color:antiquewhite;
 	margin:0;
 	text-align:center;
 	width:100%;
@@ -44,7 +42,6 @@ footer {
 	text-align:center;
 	width:100%;
 	padding-top:2%;
-	padding-bottom:2%;
 }
 
 p {
