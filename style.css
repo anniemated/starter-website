@@ -62,6 +62,7 @@ html {
   overflow-y: scroll;
 }
 
+/* Mobile */
 @media screen and (max-width: 768px) {
 	body {
 		padding-bottom: 140px;
@@ -81,4 +82,17 @@ html {
 		margin: 5px 0;
 		font-size: 14px;
 	}
+}
+
+/* Tablet */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+	body {
+			padding-bottom: 150px; /* Extra space for iPad */
+			min-height: 100vh;
+	}
+				
+	footer {
+		padding-top: 20px;
+		padding-bottom: 20px;
+		}
 }
