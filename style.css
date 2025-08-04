@@ -60,6 +60,7 @@ h1 {
 
 html {
   overflow-y: scroll;
+  background-color:rgb(238, 221, 199);
 }
 
 /* Mobile */
@@ -96,13 +97,3 @@ html {
 		padding-bottom: 20px;
 		}
 }
-
-@supports (-webkit-touch-callout: none) {
-	body {
-			min-height: -webkit-fill-available;
-		}
-				
-	html {
-			height: -webkit-fill-available;
-		}
-	}
