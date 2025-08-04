@@ -66,7 +66,7 @@ html {
 /* Mobile */
 @media screen and (max-width: 768px) {
 	body {
-		padding-bottom: 140px;
+		padding-bottom: 80px;
 	}
 				
 	p {
