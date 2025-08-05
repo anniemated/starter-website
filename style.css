@@ -61,6 +61,9 @@ h1 {
 html {
   overflow-y: scroll;
   background-color:rgb(238, 221, 199);
+  height: 100%;
+  box-sizing: border-box;
+  overflow-x: hidden;
 }
 
 /* Mobile */
@@ -83,10 +86,6 @@ html {
 		margin: 5px 0;
 		font-size: 14px;
 	}
-
-	html {
-	background-color:rgb(238, 221, 199);
-	}
 }
 
 /* Tablet */
@@ -99,9 +98,5 @@ html {
 	footer {
 		padding-top: 20px;
 		padding-bottom: 20px;
-	}
-
-	html {
-	background-color:rgb(238, 221, 199);
 	}
 }
