@@ -62,8 +62,8 @@ html {
   overflow-y: scroll;
   background-color:rgb(238, 221, 199);
   height: 100%;
-  box-sizing: border-box;
-  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
 }
 
 /* Mobile */
@@ -78,8 +78,12 @@ html {
 	}
 				
 	footer {
-		padding-top: 10px;
-		padding-bottom: 10px;
+		background-color: rgb(238, 221, 199);
+		text-align: center;
+		width: 100%;
+		padding-top: 15px;
+		padding-bottom: 15px;
+		box-sizing: border-box;
 	}
 				
 	footer p {
